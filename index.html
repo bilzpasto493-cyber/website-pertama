@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bilal</title>
+
+    <style>
+        body {
+            background: #101827;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .container {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        button {
+            background: #38bdf8;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Halo, Bilal!</h1>
+
+        <p>Selamat datang di website pertamaku.</p>
+
+        <button onclick="sapa()">
+            Klik Saya
+        </button>
+
+        <p id="hasil"></p>
+    </div>
+
+    <script>
+        function sapa() {
+            document.getElementById("hasil").innerHTML =
+            "Selamat belajar coding!";
+        }
+    </script>
+
+</body>
+</html>
